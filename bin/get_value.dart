@@ -1,6 +1,9 @@
 void main(){
-  var nama = getnama();
+  late var nama = getnama();
+
+  print("nama akan dibuat");
   print(nama);
+//   fungsi late untuk mendelay
 
 
 }
